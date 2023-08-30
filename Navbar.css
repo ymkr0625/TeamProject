@@ -1,0 +1,79 @@
+.Header1 img{
+    border-radius: 100%;
+    height: 8vh;
+}
+nav a{
+    padding: 4vw;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: transparent;
+}
+nav{
+    background: transparent;
+}
+.navbar .navbar-nav .nav-item a{
+    padding: 1vw;
+}
+.navbar .navbar-nav .nav-but{
+    padding: 0.5vw;
+}
+.Heading{
+    text-align: center;
+    color: antiquewhite;
+    margin-top: 17%;
+    font-size: 4vw
+}
+.carousel img{
+    height: 90vh;
+}
+.footer{
+    background-color: black;
+    height: 55vh;
+    margin-top: 5vh;
+    padding-top: 5vh;
+}
+.socialmedia{
+    display: flex;
+    flex-wrap: wrap;
+}
+.socialmedia a{
+    margin-left: 5vw;
+}
+.socialmedia a:hover{
+transform: scale(1.1);
+color: silver;
+}
+.f-link{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2vw;
+}
+.f-link img{
+    width: 10vw;
+    height: 10vh;
+}
+.f-link-a{
+    margin-left: 2%;
+}
+.f-link-a a{
+    padding-left: 7vw;
+    font-weight: bolder;
+    text-decoration: none;
+    color: wheat;
+}
+.f-link-a a:hover{
+    color: silver;
+    
+}
+
+@media (max-width:600px) {
+    body{
+        background-image: url(./Gwagon600.jpg);
+        background-size: 100% 100vh;
+    }
+    #about{
+        color: aliceblue;
+    }
+}

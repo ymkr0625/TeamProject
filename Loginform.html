@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Login Page Validation</title>
+        <link rel="stylesheet" href="Loginform.css">
+    <script> 
+       function myvalidate(form) {
+        var  userName = form.username.value;
+        var  password = form.password.value;
+        if(userName.length === 0) {
+            alert("You Must Enter valid username ");
+            return false;
+        }
+        if(password.length === 0) {
+            alert("You Must Enter valid Password ");
+            return false;
+        }         
+      return true; 
+       }
+
+    </script>
+    </head>  
+ <body>
+    <div class="form">
+
+    <h1>Login Page</h1>
+    <form action="LoginSuccess.html"  onsubmit="return myvalidate(this);">
+
+    <b>UserName : <input style="color: white;" type="text" name="Username" placeholder="Enter Username" size="15"><br><br></b>
+    <b>Password : <input style="color: white;" type="password" name="password" placeholder="Enter Password" size="15"><br><br></b>
+            <input style="text-decoration: none;" type="submit" value="Submit">
+            <input style="text-decoration: none;" type="reset" value="Reset Form">
+            
+                <p class="container"><strong>Don't have an account?</strong><a href="./demo.html" class="text-dark-50 fw-bold"><strong>  Sign Up</strong></a>
+                    
+                </p>
+              
+    </form>
+</div>
+ </body> 
+</html>

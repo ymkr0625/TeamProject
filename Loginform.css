@@ -1,0 +1,54 @@
+body{
+    background-image: url("pic.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: fixed;
+    height: 500PX;
+    color: whitesmoke; 
+    text-align: center;
+    margin-top: 0%;
+
+}
+div{
+    border: 2px ;
+    justify-content: center;
+    padding-top: 10%;
+    text-decoration: none;
+    
+}
+input{
+    border: none;
+    background: transparent;
+    outline: color(srgb red green blue);
+    height: 20px;
+    font-size: 1.5vw ;
+    text-decoration: none;
+}
+.form{
+    color: white;
+    text-decoration: none;
+}
+a{
+    color: whitesmoke;
+    text-indent: 300px;
+    background-color: bisque;
+    padding: 1px 2px;
+    color: black;
+    margin: 1px 1px;
+    cursor: pointer;
+    
+}
+
+@media (max-width: 600px) {
+    body{
+        background-image: url("pic.webp");
+        background-repeat: no-repeat;
+        background-size: 100% 50vh;
+        background-position: fixed;
+        /* height: 730PX; */
+        color: whitesmoke; 
+        text-align: center;
+    
+    }
+    
+}
